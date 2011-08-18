@@ -1,17 +1,19 @@
 # DKWebViewController
 
-`DKWebViewController` is a UIViewController class that contains a
-UIWebView. The scrolling shadows have been removed from inside of the
-UIWebView so that it doesn't have the appeaerance of the UIWebView.
+`DKWebViewController` is a `UIViewController` class that contains a
+`UIWebView`. The scrolling shadows have been removed from inside of the
+`UIWebView` so that it doesn't have the appeaerance of the UIWebView.
 
 It is used in the apps written by [Mostly Disco](http://www.mostlydisco.com)
 
 ## Installation
 
 Copy the files into to your project folder, and add them to your XCode
-project then include `DKWebViewController.h` somewhere in your codebase
+project.
 
 ## Usage
+
+    #import "DKWebViewController"
 
     // Create the web view controller
     DKWebViewController * webViewController = [[DKWebViewController alloc] initWithStringURL:@"http://google.com"];
