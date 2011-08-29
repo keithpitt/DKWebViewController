@@ -5,6 +5,7 @@
 `UIWebView` so that it doesn't have the appeaerance of the UIWebView.
 
 It is used in the apps written by [Mostly Disco](http://www.mostlydisco.com)
+and [The Frontier Group](http://www.thefrontiergroup.com.au)
 
 ## Installation
 
@@ -13,16 +14,18 @@ project.
 
 ## Usage
 
-    #import "DKWebViewController"
+```objective-c
+#import "DKWebViewController"
 
-    // Create the web view controller
-    DKWebViewController * webViewController = [[DKWebViewController alloc] initWithStringURL:@"http://google.com"];
+// Create the web view controller
+DKWebViewController * webViewController = [[DKWebViewController alloc] initWithStringURL:@"http://google.com"];
 
-    // Add it to the navigation stack
-    [self.navigationController pushViewController:webViewController animated:YES];
+// Add it to the navigation stack
+[self.navigationController pushViewController:webViewController animated:YES];
 
-    // Release the webview controller
-    [webViewController release];
+// Release the webview controller
+[webViewController release];
+```
 
 ## Note on Patches/Pull Requests
 
@@ -33,6 +36,8 @@ project.
 ## Contributers
 
 * [Keith Pitt](http://www.keithpitt.com)
+* [The Frontier Group](http://www.thefrontiergroup.com.au)
+* [Mostly Disco](http://www.mostlydisco.com)
 
 ## License
 
