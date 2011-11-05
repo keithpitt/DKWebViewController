@@ -1,0 +1,14 @@
+Vendor::Spec.new do |s|
+
+  s.name        = "DKWebViewController"
+  s.version     = "0.1"
+
+  s.authors     = "keithpitt"
+  s.email       = "me@keithpitt.com"
+  s.description = "A UIViewController subclass that makes it easy to show a full screen UIWebView with no interior shadows"
+
+  s.source      = "https://github.com/keithpitt/DKWebViewController"
+
+  s.files       = `git ls-files`.split("\n")
+
+end
